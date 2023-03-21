@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <title>Sobre Mim</title>
+    <style>
+        root{
+            --cor-principal:#A27B5C;
+    --cor-secundaria:#000;
+    --cor-terciaria: #22D4FD;
+    --cor-quarta-cor:#F6F6F6;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: var(--cor-terciaria);
+
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: 5px;
+            font-size: 54px;
+            color: var(--cor-quarta-cor);
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="destaque.html">Destaque</a>
+        </nav>
+    </header>
+
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Currículo</h1>
+            <p class="apresentacao__conteudo__texto">
+                Apresentação e informações principais
+            </p>
+            <h2 class="apresentacao__conteudo__titulo">Experiências</h2>
+            <p class="apresentacao__conteudo__texto">
+            <ul class="apresentacao__conteudo__texto">
+                <li> Empresa: Embraer - (2019 - 2020) - menor aprendiz</li>
+                <li> Mirante da Serra - (2020 - 2023) - Garçom</li>
+            </ul>
+            </p>
+
+
+
+            <h2 class="apresentacao__conteudo__titulo">Estudos</h2>
+            <div class="apresentacao__conteudo__texto">
+                <ul class="apresentacao__conteudo__texto">
+                    <li>Ensino Médio - EECA </li>
+                    <li>Tecnico de Desenvolvimento de Sistemas - Senai - Botucatu <a href="#">ver certificado</a>
+                    <li>Segurança da Informação - Solyd Ofence Securyt <a href="#">ver certificado</a></li>
+                    <li>Soldagem - Senai Botucatu <a href="#">ver certificado</a></li>
+                </ul>
+                <br>
+
+            </div>
+        </section>
+        <img class="apresentacao__imagem_b" src="./me-img.png" alt="Foto da Joana Santos programando">
+
+    </main>
+
+   
+
+    <footer class="rodape">
+        <p>Desenvolvido por Raí</p>
+    </footer>
+</body>
+
+</html>
